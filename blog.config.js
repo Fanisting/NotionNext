@@ -27,7 +27,7 @@ const BLOG = {
   CONTACT_LINKEDIN: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN || 'https://www.linkedin.com/in/xuhang-fan-690780264/', // 你的linkedIn 首页
 
   // 网站字体
-  FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-serif', // ['font-serif','font-sans'] 两种可选，分别是衬线和无衬线: 参考 https://www.jianshu.com/p/55e410bd2115
+  FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-sans', // ['font-serif','font-sans'] 两种可选，分别是衬线和无衬线: 参考 https://www.jianshu.com/p/55e410bd2115
   FONT_URL: [
     // 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
     'https://fonts.googleapis.com/css?family=Bitter&display=swap',
@@ -36,8 +36,10 @@ const BLOG = {
   ],
   FONT_SANS: [
     // 无衬线字体 例如'LXGW WenKai'
-    'Bitter',
+    '"Microsoft YaHei"',
     '"PingFang SC"',
+    'HarmonyOS_Regular',
+    'Bitter',
     '-apple-system',
     'BlinkMacSystemFont',
     '"Hiragino Sans GB"',
@@ -45,8 +47,6 @@ const BLOG = {
     '"Segoe UI Symbol"',
     '"Segoe UI"',
     '"Noto Sans SC"',
-    'HarmonyOS_Regular',
-    '"Microsoft YaHei"',
     '"Helvetica Neue"',
     'Helvetica',
     '"Source Han Sans SC"',
